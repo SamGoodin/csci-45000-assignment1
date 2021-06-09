@@ -1,0 +1,19 @@
+1. ssh in-csci-rrpc01.cs.iupui.edu
+
+2. cd /home/sagoodin/45000
+
+3. ps eaf | grep rmiregistry
+
+4. if rmiregistry job is running, kill it : kill -9 <pid>
+
+5. rmiregistry 9876 &
+
+6. java Assignment1/bank/Server 
+
+
+
+# In a different machine:
+
+1. ssh in-csci-rrpc02.cs.iupui.edu
+
+2. java Assignment1/client/Client  
